@@ -1,0 +1,23 @@
+ db.hospitaldetails.insertMany([
+{"hospitalname" : "Fortis", "phoneno" : "9908203522", "email" : "Fortis@gmail.com", "location" : "Aaramgarh", "hospid" : "h1"},
+{"hospitalname" : "Aditya", "phoneno" : "9908203578", "email" : "Aditya@gmail.com", "location" : "Redhills","hospid":"h3"},
+{"hospitalname":"Apollo","phoneno":"9908203577","email":"Apollo@gmail.com","location":"Abids","hospid":"h4"},
+{"hospitalname":"Fernandez","phoneno":"9908203511","email":"Fernandez@gmail.com","location":"Abids","hospid":"h2"},
+{"hospitalname":"care","phoneno":"9908203512","email":"care@gmail.com","location":"Naryanguda","hospid":"h5"}])
+db.ventilatordetails.insertMany([
+{"hospitalname":"Fortis","hospid":"h1","ventilatorid":"h1v1","status":"Occupied"},
+{"hospitalname":"Fortis","hospid":"h1","ventilatorid":"h1v2","status":"Available"},
+{"hospitalname":"Fortis","hospid":"h1","ventilatorid":"h1v3","status":"Available"},
+{"hospitalname":"Apollo","hospid":"h4","ventilatorid":"h4v1","status":"Occupied"},
+{"hospitalname":"Apollo","hospid":"h4","ventilatorid":"h4v2","status":"Available"},
+{"hospitalname":"Apollo","hospid":"h4","ventilatorid":"h4v3","status":"Occupied"},
+{"hospitalname":"Fernandez","hospid":"h2","ventilatorid":"h2v1","status":"Occupied"},
+{"hospitalname":"Fernandez","hospid":"h2","ventilatorid":"h2v2","status":"Available"},
+{"hospitalname":"Fernandez","hospid":"h2","ventilatorid":"h2v3","status":"Occupied"},
+{"hospitalname":"care","hospid":"h5","ventilatorid":"h5v1","status":"Occupied"},
+{"hospitalname":"care","hospid":"h5","ventilatorid":"h5v2","status":"Available"},
+{"hospitalname":"care","hospid":"h5","ventilatorid":"h5v3","status":"Occupied"},
+{"hospitalname":"Aditya","hospid":"h3","ventilatorid":"h3v1","status":"Occupied"},
+{"hospitalname":"Aditya","hospid":"h3","ventilatorid":"h3v2","status":"Available"},
+{"hospitalname":"Aditya","hospid":"h3","ventilatorid":"h3v3","status":"Occupied"}
+])
